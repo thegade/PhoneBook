@@ -1,5 +1,5 @@
 import logging
-
+from user import User
 
 class Admin(User):
     @staticmethod

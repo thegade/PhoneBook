@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG)
 user1 = User("Adel")
 user2 = User("Ilmir")
 user3 = User("Guts")
-admin = Admin(user1)
+admin = Admin("Adel")
 
 # Add friends to user1
 user1.add_friends(user2)

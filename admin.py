@@ -2,6 +2,9 @@ import logging
 from user import User
 
 class Admin(User):
+    def __init__(self, first_name):
+        super().__init__(first_name)
+        
     @staticmethod
     def add_contact_to_phone_book(contact, phone_book):
         phone_book.add_contact(contact)
